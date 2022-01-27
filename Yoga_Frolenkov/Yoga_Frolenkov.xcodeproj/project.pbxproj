@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B0389C8279F0EF9002C65AD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0389C7279F0EF9002C65AD /* TableViewCell.swift */; };
+		7B477C012792DA23000DBDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B477C002792DA23000DBDA3 /* AppDelegate.swift */; };
+		7B477C032792DA23000DBDA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B477C022792DA23000DBDA3 /* SceneDelegate.swift */; };
+		7B477C052792DA23000DBDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B477C042792DA23000DBDA3 /* ViewController.swift */; };
+		7B477C082792DA23000DBDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B477C062792DA23000DBDA3 /* Main.storyboard */; };
+		7B477C0A2792DA26000DBDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B477C092792DA26000DBDA3 /* Assets.xcassets */; };
+		7B477C0D2792DA26000DBDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B477C0B2792DA26000DBDA3 /* LaunchScreen.storyboard */; };
+		7B477C122792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7B477C112792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7B477C182792DA27000DBDA3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B477C162792DA27000DBDA3 /* Interface.storyboard */; };
+		7B477C1A2792DA2F000DBDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B477C192792DA2F000DBDA3 /* Assets.xcassets */; };
+		7B477C212792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7B477C202792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7B477C262792DA30000DBDA3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B477C252792DA30000DBDA3 /* InterfaceController.swift */; };
+		7B477C282792DA30000DBDA3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B477C272792DA30000DBDA3 /* ExtensionDelegate.swift */; };
+		7B477C2A2792DA3A000DBDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B477C292792DA3A000DBDA3 /* Assets.xcassets */; };
+		7B49800C279476580028D06F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B49800B279476580028D06F /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B477C132792DA27000DBDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B477BF52792DA23000DBDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B477C102792DA27000DBDA3;
+			remoteInfo = "Yoga_Frolenkov WatchKit App";
+		};
+		7B477C222792DA30000DBDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B477BF52792DA23000DBDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B477C1F2792DA30000DBDA3;
+			remoteInfo = "Yoga_Frolenkov WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B477C312792DA3A000DBDA3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7B477C212792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B477C352792DA3A000DBDA3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7B477C122792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B0389C7279F0EF9002C65AD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7B477BFD2792DA23000DBDA3 /* Yoga_Frolenkov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoga_Frolenkov.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B477C002792DA23000DBDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B477C022792DA23000DBDA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B477C042792DA23000DBDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B477C072792DA23000DBDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B477C092792DA26000DBDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B477C0C2792DA26000DBDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B477C0E2792DA26000DBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B477C112792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yoga_Frolenkov WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B477C172792DA27000DBDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7B477C192792DA2F000DBDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B477C1B2792DA2F000DBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B477C202792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Yoga_Frolenkov WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B477C252792DA30000DBDA3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7B477C272792DA30000DBDA3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7B477C292792DA3A000DBDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B477C2B2792DA3A000DBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B49800B279476580028D06F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B477BFA2792DA23000DBDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B477C1D2792DA30000DBDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B477BF42792DA23000DBDA3 = {
+			isa = PBXGroup;
+			children = (
+				7B477BFF2792DA23000DBDA3 /* Yoga_Frolenkov */,
+				7B477C152792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App */,
+				7B477C242792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension */,
+				7B477BFE2792DA23000DBDA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B477BFE2792DA23000DBDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B477BFD2792DA23000DBDA3 /* Yoga_Frolenkov.app */,
+				7B477C112792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App.app */,
+				7B477C202792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B477BFF2792DA23000DBDA3 /* Yoga_Frolenkov */ = {
+			isa = PBXGroup;
+			children = (
+				7B477C002792DA23000DBDA3 /* AppDelegate.swift */,
+				7B477C022792DA23000DBDA3 /* SceneDelegate.swift */,
+				7B477C042792DA23000DBDA3 /* ViewController.swift */,
+				7B477C062792DA23000DBDA3 /* Main.storyboard */,
+				7B477C092792DA26000DBDA3 /* Assets.xcassets */,
+				7B477C0B2792DA26000DBDA3 /* LaunchScreen.storyboard */,
+				7B49800B279476580028D06F /* TableViewController.swift */,
+				7B0389C7279F0EF9002C65AD /* TableViewCell.swift */,
+				7B477C0E2792DA26000DBDA3 /* Info.plist */,
+			);
+			path = Yoga_Frolenkov;
+			sourceTree = "<group>";
+		};
+		7B477C152792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7B477C162792DA27000DBDA3 /* Interface.storyboard */,
+				7B477C192792DA2F000DBDA3 /* Assets.xcassets */,
+				7B477C1B2792DA2F000DBDA3 /* Info.plist */,
+			);
+			path = "Yoga_Frolenkov WatchKit App";
+			sourceTree = "<group>";
+		};
+		7B477C242792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7B477C252792DA30000DBDA3 /* InterfaceController.swift */,
+				7B477C272792DA30000DBDA3 /* ExtensionDelegate.swift */,
+				7B477C292792DA3A000DBDA3 /* Assets.xcassets */,
+				7B477C2B2792DA3A000DBDA3 /* Info.plist */,
+			);
+			path = "Yoga_Frolenkov WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B477BFC2792DA23000DBDA3 /* Yoga_Frolenkov */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B477C362792DA3A000DBDA3 /* Build configuration list for PBXNativeTarget "Yoga_Frolenkov" */;
+			buildPhases = (
+				7B477BF92792DA23000DBDA3 /* Sources */,
+				7B477BFA2792DA23000DBDA3 /* Frameworks */,
+				7B477BFB2792DA23000DBDA3 /* Resources */,
+				7B477C352792DA3A000DBDA3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B477C142792DA27000DBDA3 /* PBXTargetDependency */,
+			);
+			name = Yoga_Frolenkov;
+			productName = Yoga_Frolenkov;
+			productReference = 7B477BFD2792DA23000DBDA3 /* Yoga_Frolenkov.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B477C102792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B477C322792DA3A000DBDA3 /* Build configuration list for PBXNativeTarget "Yoga_Frolenkov WatchKit App" */;
+			buildPhases = (
+				7B477C0F2792DA27000DBDA3 /* Resources */,
+				7B477C312792DA3A000DBDA3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B477C232792DA30000DBDA3 /* PBXTargetDependency */,
+			);
+			name = "Yoga_Frolenkov WatchKit App";
+			productName = "Yoga_Frolenkov WatchKit App";
+			productReference = 7B477C112792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7B477C1F2792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B477C2E2792DA3A000DBDA3 /* Build configuration list for PBXNativeTarget "Yoga_Frolenkov WatchKit Extension" */;
+			buildPhases = (
+				7B477C1C2792DA30000DBDA3 /* Sources */,
+				7B477C1D2792DA30000DBDA3 /* Frameworks */,
+				7B477C1E2792DA30000DBDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yoga_Frolenkov WatchKit Extension";
+			productName = "Yoga_Frolenkov WatchKit Extension";
+			productReference = 7B477C202792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B477BF52792DA23000DBDA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Timofey;
+				TargetAttributes = {
+					7B477BFC2792DA23000DBDA3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					7B477C102792DA27000DBDA3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					7B477C1F2792DA30000DBDA3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 7B477BF82792DA23000DBDA3 /* Build configuration list for PBXProject "Yoga_Frolenkov" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B477BF42792DA23000DBDA3;
+			productRefGroup = 7B477BFE2792DA23000DBDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B477BFC2792DA23000DBDA3 /* Yoga_Frolenkov */,
+				7B477C102792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App */,
+				7B477C1F2792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B477BFB2792DA23000DBDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B477C0D2792DA26000DBDA3 /* LaunchScreen.storyboard in Resources */,
+				7B477C0A2792DA26000DBDA3 /* Assets.xcassets in Resources */,
+				7B477C082792DA23000DBDA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B477C0F2792DA27000DBDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B477C1A2792DA2F000DBDA3 /* Assets.xcassets in Resources */,
+				7B477C182792DA27000DBDA3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B477C1E2792DA30000DBDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B477C2A2792DA3A000DBDA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B477BF92792DA23000DBDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0389C8279F0EF9002C65AD /* TableViewCell.swift in Sources */,
+				7B477C052792DA23000DBDA3 /* ViewController.swift in Sources */,
+				7B477C012792DA23000DBDA3 /* AppDelegate.swift in Sources */,
+				7B477C032792DA23000DBDA3 /* SceneDelegate.swift in Sources */,
+				7B49800C279476580028D06F /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B477C1C2792DA30000DBDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B477C282792DA30000DBDA3 /* ExtensionDelegate.swift in Sources */,
+				7B477C262792DA30000DBDA3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B477C142792DA27000DBDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B477C102792DA27000DBDA3 /* Yoga_Frolenkov WatchKit App */;
+			targetProxy = 7B477C132792DA27000DBDA3 /* PBXContainerItemProxy */;
+		};
+		7B477C232792DA30000DBDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B477C1F2792DA30000DBDA3 /* Yoga_Frolenkov WatchKit Extension */;
+			targetProxy = 7B477C222792DA30000DBDA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B477C062792DA23000DBDA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B477C072792DA23000DBDA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B477C0B2792DA26000DBDA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B477C0C2792DA26000DBDA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7B477C162792DA27000DBDA3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B477C172792DA27000DBDA3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B477C2C2792DA3A000DBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B477C2D2792DA3A000DBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B477C2F2792DA3A000DBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yoga_Frolenkov WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Yoga-Frolenkov.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		7B477C302792DA3A000DBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yoga_Frolenkov WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Yoga-Frolenkov.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		7B477C332792DA3A000DBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Yoga_Frolenkov_WatchKit_Extension;
+				INFOPLIST_FILE = "Yoga_Frolenkov WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Yoga-Frolenkov.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		7B477C342792DA3A000DBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Yoga_Frolenkov_WatchKit_Extension;
+				INFOPLIST_FILE = "Yoga_Frolenkov WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Yoga-Frolenkov.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		7B477C372792DA3A000DBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yoga_Frolenkov/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Yoga-Frolenkov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B477C382792DA3A000DBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yoga_Frolenkov/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Yoga-Frolenkov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B477BF82792DA23000DBDA3 /* Build configuration list for PBXProject "Yoga_Frolenkov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B477C2C2792DA3A000DBDA3 /* Debug */,
+				7B477C2D2792DA3A000DBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B477C2E2792DA3A000DBDA3 /* Build configuration list for PBXNativeTarget "Yoga_Frolenkov WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B477C2F2792DA3A000DBDA3 /* Debug */,
+				7B477C302792DA3A000DBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B477C322792DA3A000DBDA3 /* Build configuration list for PBXNativeTarget "Yoga_Frolenkov WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B477C332792DA3A000DBDA3 /* Debug */,
+				7B477C342792DA3A000DBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B477C362792DA3A000DBDA3 /* Build configuration list for PBXNativeTarget "Yoga_Frolenkov" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B477C372792DA3A000DBDA3 /* Debug */,
+				7B477C382792DA3A000DBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B477BF52792DA23000DBDA3 /* Project object */;
+}
